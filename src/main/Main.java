@@ -9,7 +9,7 @@ public class Main {
 	
 	public static void main(String[] args) {
 		
-		String output; 
+	    String output; 
 		
 	    // Create a scanner to read input from the command line
 	    Scanner scanner = new Scanner(System.in);
@@ -25,8 +25,8 @@ public class Main {
 	    Encoder encoder = new Encoder();
 	    Decoder decoder = new Decoder();
 	    
-	  //  output = encoder.encode(plaintext,offsetChar);
-	    output = decoder.decode(plaintext, offsetChar);
+	    output = encoder.encode(plaintext,offsetChar);
+	    //output = decoder.decode(plaintext, offsetChar);
 	    
 	    System.out.println(output);
 	    

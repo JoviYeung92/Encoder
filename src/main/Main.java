@@ -25,8 +25,8 @@ public class Main {
 	    Encoder encoder = new Encoder();
 	    Decoder decoder = new Decoder();
 	    
-	    output = encoder.encode(plaintext,offsetChar);
-	    //output = decoder.decode(plaintext, offsetChar);
+	    output = encoder.encode(plaintext,offsetChar); //use this to encode
+	    //output = decoder.decode(plaintext, offsetChar); //use this to decode
 	    
 	    System.out.println(output);
 	    
